@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Chris Banci
+  CIS444
+  12/8/17
+  
+  problem5.xml
+  URL: http://cis444.cs.csusm.edu/banci002/hw7/problem5.xml
+-->
+
+<?xml-stylesheet type="text/xsl" href="problem5.xsl"?>
+
+<catalog>
+	<car>
+		<make>honda</make>
+		<model>fit</model>
+		<year>2013</year>
+		<color>silver</color>
+		<engine>
+			<number_of_cylinders>4</number_of_cylinders>
+			<fuel_system>carbureted</fuel_system>
+		</engine>
+		<number_of_doors>5</number_of_doors>
+		<transmission_type>auto</transmission_type>
+		<accessories>
+			<radio>yes</radio>
+			<air_conditioning>yes</air_conditioning>
+			<power_windows>yes</power_windows>
+			<power_steering>yes</power_steering>
+			<power_brakes>yes</power_brakes>
+		</accessories>
+	</car>
+	
+	<car>
+		<make>nissan</make>
+		<model>skyline gtr</model>
+		<year>2018</year>
+		<color>black</color>
+		<engine>
+			<number_of_cylinders>6</number_of_cylinders>
+			<fuel_system>fuel injected</fuel_system>
+		</engine>
+		<number_of_doors>2</number_of_doors>
+		<transmission_type>auto</transmission_type>
+		<accessories>
+			<radio>yes</radio>
+			<air_conditioning>yes</air_conditioning>
+			<power_windows>yes</power_windows>
+			<power_steering>yes</power_steering>
+			<power_brakes>yes</power_brakes>
+		</accessories>
+	</car>
+	
+	<car>
+		<make>honda</make>
+		<model>s2000</model>
+		<year>2009</year>
+		<color>silver</color>
+		<engine>
+			<number_of_cylinders>6</number_of_cylinders>
+			<fuel_system>fuel injected</fuel_system>
+		</engine>
+		<number_of_doors>2</number_of_doors>
+		<transmission_type>manual</transmission_type>
+		<accessories>
+			<radio>yes</radio>
+			<air_conditioning>yes</air_conditioning>
+			<power_windows>yes</power_windows>
+			<power_steering>yes</power_steering>
+			<power_brakes>yes</power_brakes>
+		</accessories>
+	</car>	
+</catalog>

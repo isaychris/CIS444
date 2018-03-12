@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+// Name: Chris Banci 
+// Course: CIS444
+// Date: Sept 29, 2017
+
+// Assignment: Homework 3
+// Description: An example to illustrate the computations of factorials
+// URL: http://cis444.cs.csusm.edu/banci002/hw3/hw3.html 
+-->
+
+<html lang="en">
+<head>
+  <title>HW 3 - Chris Banci</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1>Homework 3</h1>
+  <p> When user inputs a number (n), factorials up to (n) is displayed.
+  <table>
+    <caption>Factorials</caption>
+    <tr>
+      <th scope="col">(n)</th>
+      <th scope="col">Result</th>
+    </tr>
+    <script>
+      var n = window.prompt("This page will calculate factorials up to (n). Please enter a number:");
+      for (i = 1; i <= n; ++i)
+        document.write("<tr><td>", i, "</td><td>", factorial(i), "</td></tr>");
+    </script>
+  </table>
+</body>
+</html>

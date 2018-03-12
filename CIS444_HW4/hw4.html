@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> HW4 </title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1>Fruit Shop</h1>
+  <table>
+    <caption> Sales Tax: 7.75% </caption>
+    <tr>
+      <th scope="col">Fruits</th>
+      <th scope="col">Price</th>
+      <th scope="col">Quantity</th>
+    </tr>
+    
+    <tr>
+      <td>🍎 Apple</td>
+      <td>.59¢</td>
+      <td><input type="number" id="apple" onchange="validate(apple.value)">
+      </td>
+    </tr>
+
+    <tr>
+      <td>🍊 Orange</td>
+      <td>.49¢</td>
+      <td><input type="number" id="orange" onchange="validate(orange.value)">
+      </td>
+    </tr>
+    <tr>
+      <td>🍌 Banana</td>
+      <td>.39¢</td>
+      <td><input type="number" id="banana" onchange="validate(banana.value)">
+      </td>
+    </tr>
+  </table>    
+  <br>
+  <input id="submit" type="submit" onclick="clicked()" value="Submit" />
+</body>
+</html>

@@ -1,0 +1,21 @@
+/*
+  Chris Banci
+  CIS444
+  10/14/17
+  
+  styles.css
+  http://cis444.cs.csusm.edu/banci002/hw5/styles.css
+*/
+#statement {
+  top: 100px;
+  left: 0px;
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  font-family: 'comic sans ms';
+}
+
+input {
+  text-align: center;
+  width: 100px;
+}

@@ -1,0 +1,74 @@
+/*
+  Chris Banci
+  CIS444
+  12/8/17
+  
+  carStyle.css
+  URL: http://cis444.cs.csusm.edu/banci002/hw7/carStyle.css
+*/
+
+car {
+	display: block;
+	border: 1px solid black;
+	padding:20px;
+	width:500px;
+	margin:auto;
+	margin-bottom: 25px;
+	margin-top:25px;
+}
+
+make, model, year {
+	color: blue;
+}
+
+color, engine, number_of_doors, transmission_type, accessories {
+	display: block;
+	margin-left: 20px;
+}
+
+number_of_cylinders, fuel_system {
+	display:block;
+	margin-left:20px;
+}
+
+radio, air_conditioning, power_windows, power_steering, power_brakes {
+	display:block;
+	margin-left:20px;
+}
+accessories::before {
+	content:"accessories: ";
+}
+
+color::before {
+	content:"color: ";
+}
+number_of_doors::before {
+	content:"doors: ";
+}
+engine::before {
+	content:"engine: ";
+}
+transmission_type::before {
+	content:"transmission: ";
+}
+number_of_cylinders::before {
+	content:"- cylinders: ";
+}
+fuel_system::before {
+	content:"- fuel system: ";
+}
+radio::before {
+	content:"- radio: ";
+}
+air_conditioning::before {
+	content:"- air conditioning: ";
+}
+power_windows::before {
+	content:"- power windows: ";
+}
+power_steering::before {
+	content:"- power steering: ";
+}
+power_brakes::before {
+	content:"- power brakes: ";
+}

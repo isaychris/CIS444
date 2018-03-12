@@ -1,0 +1,19 @@
+/*
+// Author: Chris Banci 
+// Class: CIS444
+// Date: Sept 14, 2017
+
+// Assignment: Homework 2
+// Description: Stylesheet for definitions.html
+// URL: http://cis444.cs.csusm.edu/banci002/hw2/styles.css
+*/
+
+dd {
+  font-family: "Courier";
+  font-size: 1em;
+}
+dt {
+  font-family: "Times New Roman";
+  font-family: italics;
+  font-size: 1.1em;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+  Chris Banci
+  CIS444
+  10/14/17
+  
+  hw5.html
+  http://cis444.cs.csusm.edu/banci002/hw5/hw5.html
+--> 
+<html lang="en">
+<head>
+  <title> HW 5 - Banci </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">    
+  <script src="script.js"></script>
+</head>
+
+<body onload="initText()">
+  <h1> Homework 5 </h1>
+  <form onsubmit="setRange(); return false">
+   <p id="statement">Save time with TIME-SAVER 2.2</p>
+    <label for="xStart"> Start: </label><input type="number" id="xStart" value="0" min="0" onchange="setMinMax()"/>
+    <label for="xEnd"> End: </label><input type="number" id="xEnd" value="800" min="0" onchange="setMinMin()"/>
+    <input type="submit" value="Submit"/>
+  </form>
+  <hr>
+</body>
+</html>

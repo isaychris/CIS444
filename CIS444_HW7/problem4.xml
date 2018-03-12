@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Chris Banci
+  CIS444
+  12/8/17
+  
+  problem4.xml
+  URL: http://cis444.cs.csusm.edu/banci002/hw7/problem4.xml
+-->
+
+<?xml-stylesheet type="text/xsl" href="problem4.xsl"?>
+
+<catalog>
+	<car>
+		<make>honda</make>
+		<model>fit</model>
+		<year>2013</year>
+		<color>silver</color>
+		<engine>
+			<number_of_cylinders>4</number_of_cylinders>
+			<fuel_system>carbureted</fuel_system>
+		</engine>
+		<number_of_doors>5</number_of_doors>
+		<transmission_type>auto</transmission_type>
+		<accessories>
+			<radio>yes</radio>
+			<air_conditioning>yes</air_conditioning>
+			<power_windows>yes</power_windows>
+			<power_steering>yes</power_steering>
+			<power_brakes>yes</power_brakes>
+		</accessories>
+	</car>
+</catalog>
